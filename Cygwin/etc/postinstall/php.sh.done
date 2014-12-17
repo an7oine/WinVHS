@@ -1,0 +1,6 @@
+if [ ! -f /etc/php5/php.ini ]
+then
+    /usr/bin/mkdir -p /etc/php5
+    /usr/bin/cp /etc/defaults/etc/php5/php.ini /etc/php5/php.ini
+fi
+
