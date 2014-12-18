@@ -1,20 +1,19 @@
 WinVHS
 ======
 
-Windows-ympäristöön (Cygwin) paketoitu automaattinen internet-mediatallentaja
+Windows-ympäristöön (Cygwin) paketoitu automaattinen internet-mediatallentaja (vhs.sh)
+
+Tuetut palvelut: YLE Areena, Nelonen Ruutu, MTV Katsomo, TV5
+
+Lisätietoja vhs.sh-skriptistä: ks. https://github.com/an7oine/vhs
 
 Käyttö:
  - asenna järjestelmään ajamalla "0-asenna.bat"
  - nauhoita ajastetusti tunnin välein ajamalla "1-aseta-tallennusajastin.bat"
  - tee nauhoitukset käsin ajamalla "2-tallenna.bat"
  - päivitä vhs-skripti tarvittaessa ajamalla "3-paivita-vhs.bat"
-
+ - valmiit nauhoitetut ohjelmat tulevat katsottaviksi käyttäjän iTunes-kirjastoon
  - muut työkalut: 8-paketinhallinta (Cygwin.exe) ja 9-konsoli (komentorivi)
  
- - nauhoitukset asetetaan työpöydälle luodussa hakemistossa "nauhoitukset"
- - kutakin sarjaa kohden on luotava tekstitiedosto nimellä "Sarjan nimi.txt"
- - tekstitiedoston 1. rivillä voidaan asettaa säännöllinen hakulauseke
- - muilla riveillä voidaan antaa sarjakohtainen metatiedon parsimiskoodi
- - tiedosto voi myös olla tyhjä, jolloin haetaan kaikki jaksot sarjan nimellä
+Nauhoitukset asetetaan työpöydälle luodussa hakemistossa "nauhoitukset", kukin omassa tekstitiedostossaan nimellä "Sarjan nimi.txt". Tämän tiedoston sisällöstä ks. https://github.com/an7oine/vhs. Tiedosto voi olla tyhjä, jolloin haetaan kaikki jaksot sarjan nimellä.
  
- - valmiit nauhoitetut ohjelmat tulevat katsottaviksi käyttäjän iTunes-kirjastoon
