@@ -12,6 +12,7 @@ Käyttö:
  - nauhoita ajastetusti tunnin välein ajamalla "1-aseta-tallennusajastin.bat"
  - tee nauhoitukset käsin ajamalla "2-tallenna.bat"
  - päivitä vhs-skripti tarvittaessa ajamalla "3-paivita-vhs.bat"
+ - listaa ja hae saatavilla olevia ohjelmia, jaksoja yms. ajamalla "4-etsi-ohjelmia.bat"
  - valmiit nauhoitetut ohjelmat tulevat katsottaviksi käyttäjän iTunes-kirjastoon
  - muut työkalut: 8-paketinhallinta (Cygwin.exe) ja 9-konsoli (komentorivi)
  
