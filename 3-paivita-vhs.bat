@@ -1,8 +1,7 @@
 @ECHO off
 
 REM Paths
-SET CYGROOT=%cd%\Cygwin
-SET CYGDRIVE=%~d0
+SET CYGROOT=%~0\..\Cygwin
 
 REM Environment variables
 SET PATH="%CYGROOT%\bin";%PATH%
